@@ -1,0 +1,5 @@
+
+moja_lista = [3,2,3,4,5,0.5]
+
+suma = sum(moja_lista)
+print(suma)
