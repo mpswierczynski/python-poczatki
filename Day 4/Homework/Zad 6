@@ -1,0 +1,10 @@
+
+lista_b = [10,20,30,20,10,50,60,40,80,50,40]
+
+wynik = {}
+for i in lista_b:
+    if i in wynik:
+         wynik[i] += 1
+    else:
+         wynik[i] = 1
+print (wynik)
