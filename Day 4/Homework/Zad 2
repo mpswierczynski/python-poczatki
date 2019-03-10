@@ -1,0 +1,6 @@
+moja_lista.sort()
+print("Najmniejsza w liście jest ", moja_lista[:1])
+
+print("Najmniejsza w liście jest", min(moja_lista))
+
+print("Największa w liście jest ", max(moja_lista))
