@@ -1,0 +1,13 @@
+lista_a = [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
+
+lista_b = [15, 20, 55, 20, 24, 50, 24, 40, 80, 50, 90]
+
+sprawdz = set(lista_a) & set(lista_b)
+
+
+if sprawdz == 0:
+    print("Lista nie ma wspolnych elemntow")
+else:
+    print("True")
+print("Powtarzaja sie numery:")
+print(set(lista_a) & set(lista_b))
