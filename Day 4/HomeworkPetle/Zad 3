@@ -1,0 +1,16 @@
+
+zakres = range(50, 2443)
+parzyste = 0
+nieparzyste = 0
+
+licznik = 0
+
+for liczba in zakres:
+    licznik += 1
+    if liczba % 2 == 0:
+        parzyste += 1
+    else:
+        nieparzyste += 1
+
+print("Parzystych jest {}, a nieparzystych {}".format(parzyste,nieparzyste))
+print(licznik)
