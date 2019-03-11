@@ -1,0 +1,6 @@
+liczba_uzytkownika = int(input("Podaj wartość z przedziału 1 do 10"))
+
+print("Tabelka mnożenia dla liczby {}: ".format(liczba_uzytkownika))
+
+for i in range (1,11):
+    print(liczba_uzytkownika, " razy ", i, liczba_uzytkownika * i)
