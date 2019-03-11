@@ -1,0 +1,8 @@
+zakres = range(1, 21)
+licznik = 0
+for liczba in zakres:
+    licznik += 1
+    if liczba % 4 == 0:
+        print("podzielna przez 4")
+    else:
+        print(licznik)
