@@ -1,0 +1,14 @@
+pies = int(input("Wpisz wiek psa, który chcesz przeliczyc"))
+zmienna_2lata = 10.5
+zmienna_po2latach = 4
+
+if pies < 3:
+    pies = pies * 10.5
+    pies = str(pies)
+    print("Twoj pies ma " + pies + " lat w ludzkich")
+
+else:
+     if pies >= 3:
+        pies = ((pies - 2) * 4 + 21)
+        pies = str(pies)
+        print("Twoj pies ma " + pies + " lat(a) w ludzkich latach")
